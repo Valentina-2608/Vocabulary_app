@@ -57,7 +57,7 @@ header{
     top:30px;
     left:15%;
     font-size:30px;
-    color:#C6BDB6;
+    color:darkred;
     text-align: center;
     text-decoration: underline;
 }
@@ -69,7 +69,7 @@ header{
     top:30px;
     left:40%;
     font-size:22px;
-    color:#E0E1DD;
+    color:#0D1B2A;
     text-align: center;
     font-style: italic;
 }
@@ -100,7 +100,7 @@ header{
     margin-right: 20px;
     border:none;
     border-radius: 5px;
-    background-color: #7C95B6;
+    background-color: #415A77;
     color:white;
     font-weight: bold;
 }
@@ -113,7 +113,7 @@ header{
     padding:10px;
     border:none;
     border-radius: 5px;
-    background-color: #7C95B6;
+    background-color: #415A77;
     color:white;
     font-weight: bold;
 }
