@@ -138,12 +138,12 @@ header{
     height:300px;
     position: absolute;
     top:0px;
-    left:50px;
+    left:5%;
 }
 
 
 .block1_image>img{
-    width:70%;
+    width:60%;
 }
 
 
@@ -157,12 +157,12 @@ header{
 
 
 .info{
-    width:20%;
+    width:50%;
     height:20px;
     padding:10px;
     background-color: #edf5ff;
     position: absolute;
-    left:20px;
+    left:1%;
     top:20px;
     border-radius: 10px;
     font-size:20px;
@@ -174,22 +174,22 @@ header{
 
 
 .info1{
-    width:60%;
+    width:100%;
     height:20px;
     padding:5px;
     position: absolute;
-    left:20px;
+    left:1%;
     top:75px;
     font-size:34px;
 }
 
 
 .info2{
-    width:80%;
+    width:100%;
     height:20px;
     padding:5px;
     position: absolute;
-    left:20px;
+    left:1%;
     top:140px;
     font-size:20px;
 }
