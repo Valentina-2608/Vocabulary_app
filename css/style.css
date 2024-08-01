@@ -227,3 +227,18 @@ header{
     top:0px;
     left:5%;
 }
+
+
+
+footer{
+    width:95%;
+    height:60px;
+    position: absolute;
+    top:1100px;
+    left:0px;
+    background-color:#233048;
+    color:white;
+    font-size:18px;
+    padding-top: 40px;
+    padding-left:5%;
+}
