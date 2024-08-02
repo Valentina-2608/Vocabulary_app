@@ -379,3 +379,19 @@ input:focus{
 }
 
 
+.container1_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:420px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:#415A77;
+}
+
+
+.container1_text>a{
+    color:#233048;
+}
