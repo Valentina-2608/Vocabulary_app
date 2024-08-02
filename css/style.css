@@ -242,3 +242,17 @@ footer{
     padding-top: 40px;
     padding-left:5%;
 }
+
+
+
+
+/* Login page */
+
+.main1{
+    width:100%;
+    max-width:1200px;
+    height:1200px;
+    background-color:#415A77;
+    margin:0 auto;
+    position:relative;
+}
