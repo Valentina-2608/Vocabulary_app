@@ -353,7 +353,7 @@ input:focus{
 	font-size:18px;
     position:absolute;
     top:0px;
-    left:15%;
+    left:20%;
 }
 
 #btn_log_in:hover{
@@ -370,7 +370,7 @@ input:focus{
 	font-size:18px;
     position:absolute;
     top:0px;
-    left:55%;
+    left:60%;
 }
 
 #btn_clear:hover{
