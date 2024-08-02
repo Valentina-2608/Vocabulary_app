@@ -260,7 +260,7 @@ footer{
 .container1{
     width:50%;
     height:500px;
-    background-color: white;
+    background-color: aliceblue;;
     position:absolute;
     top:100px;
     left:25%;
@@ -290,3 +290,92 @@ footer{
     top:100px;
     left:10%;
 }
+
+
+#form_login{
+    width:80%;
+    height:260px;
+    border-radius:20px;
+    position:absolute;
+    top:120px;
+    left:10%;
+}
+
+label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+    margin-left:5%;
+}
+
+input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input::placeholder{
+    color:gray;
+}
+
+
+input[type="password"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input:focus{
+    outline: none;
+    border:1px solid darkred;
+}
+
+
+
+.buttons{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:190px;
+    left:0px;
+}
+
+
+#btn_log_in{
+	width:20%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:15%;
+}
+
+#btn_log_in:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#233048;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:55%;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
+
+
