@@ -394,3 +394,22 @@ input:focus{
 .container1_text>a{
     color:#233048;
 }
+
+
+
+.container1_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:460px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container1_link>a{
+    color:#233048;
+}
