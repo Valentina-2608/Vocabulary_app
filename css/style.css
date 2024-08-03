@@ -413,3 +413,14 @@ input:focus{
 .container1_link>a{
     color:#233048;
 }
+
+
+
+.main2{
+    width:100%;
+    max-width:1200px;
+    height:700px;
+    background-color:yellow;
+    margin:0 auto;
+    position:relative;
+}
