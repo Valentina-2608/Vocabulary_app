@@ -557,3 +557,41 @@ input:focus{
 #btn_sign_up:hover{
 	cursor: pointer;
 }
+
+
+
+.container3_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:610px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:#415A77;
+}
+
+
+.container3_text>a{
+    color:#233048;
+}
+
+
+
+.container3_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:650px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container3_link>a{
+    color:#233048;
+}
