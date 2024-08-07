@@ -33,6 +33,9 @@
     var last_name = document.getElementById('last_name').value;
     var email = document.getElementById('user_email').value;
     var password =  document.getElementById('user_password').value;
+    var form_input = document.querySelector('.form_input');
+
+  
     createUserWithEmailAndPassword(auth, email, password)
           .then((userCredential) => {
     // Signed in 
