@@ -536,7 +536,7 @@ input:focus{
     height:50px;
     margin-top:30px;
     position:absolute;
-    top:400px;
+    top:510px;
     left:0px;
 }
 
@@ -564,7 +564,7 @@ input:focus{
     width:80%;
     height:50px;
     position:absolute;
-    top:610px;
+    top:710px;
     left:10%;
     font-size:18px;
     text-align:center;
@@ -583,7 +583,7 @@ input:focus{
     width:80%;
     height:50px;
     position:absolute;
-    top:650px;
+    top:750px;
     left:10%;
     font-size:18px;
     text-align:center;
