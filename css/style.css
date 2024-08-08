@@ -595,3 +595,9 @@ input:focus{
 .container3_link>a{
     color:#233048;
 }
+
+
+.error_message{
+    color:darkred;
+    margin-top:-5px;
+}
