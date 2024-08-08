@@ -27,13 +27,17 @@
   const db = getDatabase();
 
   let form_sign_up = document.getElementById('form_sign');
-  form_sign_up.addEventListener('submit', (e) => {
+  form_sign_up.addEventListener('submit', registerUser);
+  function registerUser(e){
     e.preventDefault();
     var first_name = document.getElementById('first_name').value;
     var last_name = document.getElementById('last_name').value;
     var email = document.getElementById('user_email').value;
     var password =  document.getElementById('user_password').value;
-    var form_input = document.querySelector('.form_input');
+    var first_name_error = document.getElementById('first_name_error');
+    var last_name_error = document.getElementById('last_name_error');
+    var email_error = document.getElementById('email_error');
+    var password_error = document.getElementById('password_error');
 
   
     createUserWithEmailAndPassword(auth, email, password)
@@ -65,4 +69,4 @@
      alert(errorMessage);
 });
 
-});
+};
