@@ -28,18 +28,22 @@
             <div class="form_input">
                 <p><label for="first_name">First name<sup>*</sup></label></p>
                 <p><input type="text" placeholder="First name" name="first_name" id="first_name" required autocomplete="on"></p>
+                <p id="first_name_error" class="error_message">First name must contains from 3 to 20 characters</p>
             </div>
             <div class="form_input">
                 <p><label for="last_name">Last name<sup>*</sup></label></p>
                 <p><input type="text" placeholder="Last name" name="last_name" id="last_name" required autocomplete="on"></p>
+                <p id="last_name_error" class="error_message">Last name must contains from 5 to 25 characters</p>
             </div>
             <div class="form_input">
                 <p><label for="user_email">Your email<sup>*</sup></label></p>
                 <p><input type="email" placeholder="Email adress" name="password" id="user_email" required autocomplete="on"></p>
+                <p id="email_error" class="error_message">Email must contains from 10 to 20 characters, including @</p>
             </div>
             <div class="form_input">
                 <p><label for="user_password">Create password<sup>*</sup></label></p>
                 <p><input type="password" placeholder="Password" name="password" id="user_password" required autocomplete="on"></p>
+                <p id="password_error" class="error_message">Password must contains from 8 to 20 characters(letters and numbers)</p>
             </div>
             <div class="buttons2">
                 <button id="btn_sign_up">Create account</button>
