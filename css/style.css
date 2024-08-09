@@ -618,3 +618,17 @@ input:focus{
 #password_error{
     display: none;
 }
+
+
+
+/* app.html */
+
+
+.main4{
+    width:100%;
+    max-width:1200px;
+    height:1200px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
