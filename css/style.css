@@ -601,3 +601,20 @@ input:focus{
     color:darkred;
     margin-top:-5px;
 }
+
+#first_name_error{
+    display: none;
+}
+
+#last_name_error{
+    display: none;
+}
+
+#email_error{
+    display: none;
+}
+
+
+#password_error{
+    display: none;
+}
