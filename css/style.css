@@ -679,7 +679,6 @@ input:focus{
     position: absolute;
     top:150px;
     left:0px;
-    background-color: beige;
 }
 
 .app_block{
@@ -693,6 +692,7 @@ input:focus{
     background-color: white;
     text-align: center;
     float:left;
+    box-shadow:5px 5px 5px #233048;
 }
 
 h2{
