@@ -708,3 +708,18 @@ h2{
 .app_block_image>img{
     width:70%;
 }
+
+
+
+
+/* vocabulary_fruits.html */
+
+.main5{
+    width:100%;
+    max-width:1200px;
+    height:1200px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
+
