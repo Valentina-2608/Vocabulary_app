@@ -6,7 +6,7 @@ let words = [
     },
     {
         "id":1,
-        "image":"img/apricot.jpg",
+        "image":"img/apricot.png",
         "caption":"Apricot",
     },
     {
