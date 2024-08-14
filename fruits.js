@@ -1,4 +1,4 @@
-let fruits = [
+let words = [
     {
         "id":1,
         "image":"img/apple.png",
