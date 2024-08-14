@@ -743,3 +743,29 @@ h2{
     left:0px;
     background-color:aliceblue;
 }
+
+
+
+.word_block{
+    width:27%;
+    height:350px;
+    margin-top:80px;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:3px 3px 3px #233048;
+}
+
+
+.word_block>img{
+    width:80%;
+}
+
+.word_block_caption{
+    font-size:20px;
+    color:darkred;
+    font-weight: bold;
+}
