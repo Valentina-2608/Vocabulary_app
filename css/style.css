@@ -768,3 +768,17 @@ h2{
     color:darkred;
     font-weight: bold;
 }
+
+
+
+
+/* vocabulary_vegetables.html */
+
+.main6{
+    width:100%;
+    max-width:1200px;
+    height:1950px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
