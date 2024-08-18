@@ -11,7 +11,7 @@ let words = [
     },
     {
         "id":3,
-        "image":"img/balcony.jpg",
+        "image":"img/balcony.jpeg",
         "caption":"Balcony",
     },
     {
