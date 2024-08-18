@@ -1,7 +1,7 @@
 let words = [
     {
         "id":1,
-        "image":"img/attic.jpg",
+        "image":"img/attic.jpeg",
         "caption":"Attic",
     },
     {
@@ -41,7 +41,7 @@ let words = [
     },
     {
         "id":9,
-        "image":"img/kitchen.jpg",
+        "image":"img/kitchen.jpeg",
         "caption":"Kitchen",
     },
     {
