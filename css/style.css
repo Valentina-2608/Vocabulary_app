@@ -658,6 +658,10 @@ input:focus{
 }
 
 
+.header_caption1>a{
+    color:darkred;
+}
+
 .header_text1{
     width:25%;
     height:50px;
