@@ -52,7 +52,7 @@ let words = [
     {
         "id":11,
         "image":"img/living_room.jpg",
-        "caption":"Kiving room",
+        "caption":"Living room",
     },
     {
         "id":12,
