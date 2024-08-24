@@ -1,0 +1,62 @@
+let words = [
+    {
+        "id":1,
+        "image":"img/bank.jpg",
+        "caption":"Bank",
+    },
+    {
+        "id":2,
+        "image":"img/bus_station.png",
+        "caption":"Bus station",
+    },
+    {
+        "id":3,
+        "image":"img/cafe.jpg",
+        "caption":"Cafe",
+    },
+    {
+        "id":4,
+        "image":"img/hospital.png",
+        "caption":"Hospital",
+    },
+    {
+        "id":5,
+        "image":"img/museum.png",
+        "caption":"Museum",
+    },
+    {
+        "id":6,
+        "image":"img/playground.jpg",
+        "caption":"Playground",
+    },
+    {
+        "id":7,
+        "image":"img/post_office.png",
+        "caption":"Post office",
+    },
+    {
+        "id":8,
+        "image":"img/school.png",
+        "caption":"School",
+    },
+    {
+        "id":9,
+        "image":"img/shop.png",
+        "caption":"Shop",
+    },
+    {
+        "id":10,
+        "image":"img/skyscraper.jpg",
+        "caption":"Skyscraper",
+    },
+    {
+        "id":11,
+        "image":"img/street.jpg",
+        "caption":"Street",
+    },
+    {
+        "id":12,
+        "image":"img/train_station.jpg",
+        "caption":"Train station",
+    }
+]
