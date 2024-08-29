@@ -726,7 +726,22 @@ h2{
 }
 
 
+.btn_show{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#233048;
+    font-weight: bold;
+}
 
+.btn_show:hover{
+    cursor: pointer;
+}
+
+.btn_show>a{
+    color:white;
+    text-decoration: none;
+}
 
 /* vocabulary_fruits.html */
 
@@ -884,3 +899,5 @@ h2{
     top:140px;
     left:0px;
 }
+
+
