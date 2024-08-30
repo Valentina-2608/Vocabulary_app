@@ -919,3 +919,10 @@ h2{
     top:140px;
     left:0px;
 }
+
+
+.container10>.list_words>.word_block>img{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
