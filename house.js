@@ -38,6 +38,8 @@ let words = [
         "id":6,
         "image":"img/dining_room.jpg",
         "caption":"Dining room",
+        "text": "/ˈdaɪnɪŋ(ɡ)/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/dining-us.mp3",
     },
     {
         "id":7,
@@ -64,16 +66,22 @@ let words = [
         "id":10,
         "image":"img/laundry_room.jpg",
         "caption":"Laundry room",
+        "text": "/ˈlɔːn.dɹi/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/laundry-us.mp3",
     },
     {
         "id":11,
         "image":"img/living_room.jpg",
         "caption":"Living room",
+        "text": "/ˈlɪvɪŋ/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/living-uk.mp3",
     },
     {
         "id":12,
         "image":"img/study_room.jpg",
         "caption":"Study room",
+        "text": "/ˈstʌdi/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/study-uk.mp3",
     }
 
 ]
