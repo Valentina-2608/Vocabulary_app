@@ -44,22 +44,24 @@ let words = [
     },
     {
         "id":7,
-        "image":"img/eggplant.jpg",
-        "caption":"Eggplant",
-    },
-    {
-        "id":8,
         "image":"img/lettuce.jpg",
         "caption":"Lettuce",
         "text": "/ˈlɛtəs/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/lettuce-us.mp3",
     },
     {
-        "id":9,
+        "id":8,
         "image":"img/onion.jpg",
         "caption":"Onion",
         "text": "/ˈʌnjən/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/onion-uk.mp3",
+    },
+    {
+        "id":9,
+        "image":"img/pepper.jpg",
+        "caption":"Pepper",
+        "text": "/ˈpɛpə/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/pepper-uk.mp3",
     },
     {
         "id":10,
