@@ -6,24 +6,27 @@ let words = [
         "text": "/ˈbiːtɹuːt/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/beetroot-au.mp3",
     },
+   
     {
         "id":2,
-        "image":"img/bell_pepper.jpg",
-        "caption":"Bell pepper",
-    },
-    {
-        "id":3,
         "image":"img/broccoli.jpeg",
         "caption":"Broccoli",
         "text": "/ˈbɹɑ.kə.li/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/broccoli-us.mp3",
     },
     {
-        "id":4,
+        "id":3,
         "image":"img/cabbage.jpg",
         "caption":"Cabbage",
         "text": "/ˈkæbɪdʒ/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/cabbage-uk.mp3",
+    },
+    {
+        "id":4,
+        "image":"img/carrot.jpg",
+        "caption":"Carrot",
+        "text": "/ˈkæɹ.ət/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/carrot-us.mp3",
     },
     {
         "id":5,
