@@ -36,37 +36,40 @@ let words = [
     },
     {
         "id":6,
+        "image":"img/park.jpg",
+        "caption":"Park",
+        "text": "[paːk]",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/park-au.mp3",
+    },
+    {
+        "id":7,
         "image":"img/playground.jpg",
         "caption":"Playground",
         "text": "/ˈpleɪɡɹaʊnd/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/playground-us.mp3",
     },
     {
-        "id":7,
+        "id":8,
         "image":"img/post_office.png",
         "caption":"Post office",
         "text": "/poʊst/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/post-us.mp3",
     },
     {
-        "id":8,
+        "id":9,
         "image":"img/school.png",
         "caption":"School",
         "text": "/skuːl/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/school-uk.mp3",
     },
     {
-        "id":9,
+        "id":10,
         "image":"img/shop.png",
         "caption":"Shop",
         "text": "/ʃɑp/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/shop-us.mp3",
     },
-    {
-        "id":10,
-        "image":"img/skyscraper.jpg",
-        "caption":"Skyscraper",
-    },
+   
     {
         "id":11,
         "image":"img/street.jpg",
