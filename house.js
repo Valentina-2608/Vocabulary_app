@@ -2,12 +2,16 @@ let words = [
     {
         "id":1,
         "image":"img/attic.jpeg",
-        "caption":"Attic",
+        "caption":"Loft",
+        "text": "/lɒft/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/loft-uk.mp3",
     },
     {
         "id":2,
         "image":"img/backyard.jpg",
-        "caption":"Backyard",
+        "caption":"Yard",
+        "text": "/jɑɹd/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/yard-us.mp3",
     },
     {
         "id":3,
