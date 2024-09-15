@@ -918,7 +918,7 @@ h2{
 .main10{
     width:100%;
     max-width:1200px;
-    height:1950px;
+    height:2300px;
     background-color:red;
     margin:0 auto;
     position:relative;
@@ -926,15 +926,38 @@ h2{
 
 .container10{
     width:100%;
-    height:1820px;
+    height:2120px;
     position: absolute;
     top:140px;
     left:0px;
 }
+
+.container10 .list_words{
+    width:100%;
+    height:2160px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+}
+
 
 
 .container10>.list_words>.word_block>img{
     width:100%;
     margin-top:20px;
     margin-bottom:20px;
+}
+
+.container10>.list_words>.word_block{
+    width:27%;
+    height:440px;
+    margin-top:80px;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:3px 3px 3px #233048;
 }
