@@ -33,7 +33,9 @@ let words = [
     {
         "id":6,
         "image":"img/rainy.jpg",
-        "caption":"Rainy",
+        "caption":"Rain",
+        "text": "/ɹeɪn/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/rain-uk.mp3",
     },
     {
         "id":7,
