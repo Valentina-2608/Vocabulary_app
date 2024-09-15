@@ -8,20 +8,24 @@ let words = [
     },
     {
         "id":2,
-        "image":"img/foggy.jpg",
-        "caption":"Foggy",
-    },
-    {
-        "id":3,
         "image":"img/gloomy.png",
         "caption":"Gloomy",
         "text": "/ˈɡlumi/",
         "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/gloomy-us.mp3",
     },
     {
+        "id":3,
+        "image":"img/icy.png",
+        "caption":"Icy",
+        "text": "/ˈaɪsi/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/icy-us.mp3",
+    },
+    {
         "id":4,
         "image":"img/hailing.jpg",
-        "caption":"Hailing",
+        "caption":"Hail",
+        "text": "/heɪl/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/hail-us.mp3",
     },
     {
         "id":5,
@@ -40,7 +44,9 @@ let words = [
     {
         "id":7,
         "image":"img/sleeting.png",
-        "caption":"Sleeting",
+        "caption":"Sleet",
+        "text": "/sliːt/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/sleet-uk.mp3",
     },
     {
         "id":8,
