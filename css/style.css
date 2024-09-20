@@ -530,6 +530,23 @@ input:focus{
 }
 
 
+#form_sign>label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+}
+
+#form_sign input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_sign input::placeholder{
+    color:gray;
+}
+
 
 .buttons2{
     width:100%;
