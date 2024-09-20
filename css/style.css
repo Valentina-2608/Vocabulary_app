@@ -301,20 +301,20 @@ footer{
     left:10%;
 }
 
-label{
+#form_login>label{
     font-size:18px;
     font-weight:bold;
     color:#233048;
 }
 
-input[type="text"]{
+#form_login>input[type="text"]{
 	width:100%;
 	height: 22px;
 	border:1px solid #C6BDB6;
     padding:10px;
 }
 
-input::placeholder{
+#form_login>input::placeholder{
     color:gray;
 }
 
