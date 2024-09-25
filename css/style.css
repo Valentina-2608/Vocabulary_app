@@ -1033,4 +1033,24 @@ h2{
 }
 
 
+.word_game1{
+    width:80%;
+    height:80px;
+    margin-left:10%;
+    margin-top:70px;
+    float:left;
+}
+
+
+.word_game1>input[type="text"]{
+    width:30px;
+    height:30px;
+    font-size:32px;
+    text-align: center;
+    margin-left:5%;
+    border:none;
+    border-bottom:1px solid black;
+    background-color: aliceblue;
+    padding: 5px;
+}
 
