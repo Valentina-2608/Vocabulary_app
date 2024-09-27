@@ -14,7 +14,7 @@ let active_inputs=document.querySelectorAll('.active_input');
         if (word_letter === active_input.placeholder){
             active_input.readOnly=true;
             active_input.style.color="black";
-            alert('Correct');
+            setTimeout("alert('Correct')",100);
         }
          else {
             active_input.readOnly=false;
