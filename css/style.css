@@ -1054,3 +1054,8 @@ h2{
     padding: 5px;
 }
 
+
+.word_game1>.active_input::placeholder{
+    color:aliceblue;
+}
+
