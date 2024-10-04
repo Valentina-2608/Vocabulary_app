@@ -996,6 +996,26 @@ h2{
 /* game1.html */
 
 
+.main1_game{
+    width:100%;
+    max-width:1200px;
+    height:1850px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+.container1_game{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:140px;
+    left:0px;
+}
+
+
 .block_game1_caption{
     width:100%;
     height:50px;
@@ -1013,7 +1033,7 @@ h2{
 
 .block_game1{
     width:100%;
-    height:2020px;
+    height:1650px;
     position: absolute;
     top:80px;
     left:0px;
@@ -1047,7 +1067,7 @@ h2{
     height:30px;
     font-size:32px;
     text-align: center;
-    margin-left:5%;
+    margin-left:3%;
     border:none;
     border-bottom:1px solid black;
     background-color: aliceblue;
@@ -1058,4 +1078,7 @@ h2{
 .word_game1>.active_input::placeholder{
     color:aliceblue;
 }
+
+
+
 
