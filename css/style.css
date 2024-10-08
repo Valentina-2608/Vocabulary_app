@@ -1167,3 +1167,13 @@ h2{
     font-style:italic;
     font-weight: bold;
 }
+
+
+.block_game3{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
