@@ -671,12 +671,12 @@ input:focus{
     font-size:30px;
     color:darkred;
     text-align: center;
-    text-decoration: underline;
 }
 
 
 .header_caption1>a{
     color:darkred;
+    text-decoration: underline;
 }
 
 .header_caption2{
@@ -688,13 +688,12 @@ input:focus{
     font-size:30px;
     color:#0D1B2A;
     text-align: center;
-    text-decoration: underline;
 }
 
 
 .header_caption2>a{
     color:#0D1B2A;
-    cursor: pointer;
+    text-decoration: underline;
 }
 
 
