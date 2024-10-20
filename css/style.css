@@ -1234,3 +1234,30 @@ h2{
 .word_game3>.active_input::placeholder{
     color:aliceblue;
 }
+
+
+/* games.html */
+
+
+.game_block{
+    width:40%;
+    height:470px;
+    margin-top:80px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-inline-start: 5%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:5px 5px 5px #233048;
+}
+
+.game_block_image{
+    width:90%;
+    margin:5%;
+}
+
+.game_block_image>img{
+    width:90%;
+}
