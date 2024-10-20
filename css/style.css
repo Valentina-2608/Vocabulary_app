@@ -679,6 +679,26 @@ input:focus{
     color:darkred;
 }
 
+.header_caption2{
+    width:30%;
+    height:50px;
+    position:absolute;
+    top:45px;
+    left:55%;
+    font-size:30px;
+    color:#0D1B2A;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.header_caption2>a{
+    color:#0D1B2A;
+    cursor: pointer;
+}
+
+
+
 .header_text1{
     width:25%;
     height:50px;
