@@ -1315,3 +1315,13 @@ h2{
     left:0px;
     background-color:aliceblue;
 }
+
+
+.draggable_elements{
+    width:50%;
+    height:2030px;
+    top:0px;
+    left:0px;
+    position:absolute;
+    background-color: burlywood;
+}
