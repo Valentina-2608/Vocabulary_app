@@ -1323,7 +1323,6 @@ h2{
     top:30px;
     left:0px;
     position:absolute;
-    background-color: burlywood;
 }
 
 .droppable_elements{
@@ -1332,7 +1331,6 @@ h2{
     top:440px;
     left:00px;
     position:absolute;
-    background-color: darkgrey;
 }
 
 .draggable{
@@ -1359,7 +1357,7 @@ h2{
     margin-left:6%;
     border:2px dotted black;
     float:left;
-    background-color: lightgray;
+    background-color: #F8F8F8;
     text-align:center;
     font-style:italic;
     font-size:18px;
