@@ -1334,3 +1334,19 @@ h2{
     position:absolute;
     background-color: darkgrey;
 }
+
+.draggable{
+    width:30%;
+    height:210px;
+    margin-top:50px;
+    margin-left:13%;
+    border:1px solid darkblue;
+    float:left;
+    background-color: white;
+}
+
+
+
+.draggable>img{
+    width:100%;
+}
