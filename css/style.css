@@ -1333,7 +1333,7 @@ h2{
     position:absolute;
 }
 
-.draggable{
+.block_elem{
     width:12%;
     height:160px;
     margin-top:30px;
@@ -1345,7 +1345,7 @@ h2{
 
 
 
-.draggable>img{
+.block_elem>img{
     width:100%;
 }
 
@@ -1361,4 +1361,9 @@ h2{
     text-align:center;
     font-style:italic;
     font-size:18px;
+}
+
+
+.droppable_hover{
+    background-color: #233048;
 }
