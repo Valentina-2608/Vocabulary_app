@@ -1352,7 +1352,7 @@ h2{
 
 .droppable{
     width:12%;
-    height:160px;
+    height:170px;
     margin-top:30px;
     margin-left:6%;
     border:2px dotted black;
@@ -1366,4 +1366,41 @@ h2{
 
 .droppable_hover{
     background-color: #233048;
+}
+
+
+.draggable {
+    cursor: move;
+  }
+  
+  
+  
+.draggable:hover {
+    opacity: 0.7;
+  }
+  
+.draggable.dragged {
+    cursor: default;
+  }
+  
+  
+.droppable.droppable-hover {
+    outline-width: 4px;
+    background-color: var(--gray-6);
+  }
+  
+.droppable.dropped {
+    outline: 2px solid var(--gray-8);
+    background-color:white;
+  
+  }
+  
+.droppable>img{
+      width:100%;
+      z-index:10;
+}
+
+
+.new_block{
+    border:none;
 }
