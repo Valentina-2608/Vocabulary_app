@@ -1470,3 +1470,13 @@ h2{
 .block_image>img{
     width:100%;
 }
+
+
+.container11_block2{
+    width:60%;
+    height:1000px;
+    position:absolute;
+    top:0px;
+    left:40%;
+    background-color: blanchedalmond;
+}
