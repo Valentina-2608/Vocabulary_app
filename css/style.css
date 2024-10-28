@@ -1589,3 +1589,15 @@ h2{
     left:0px;
     background-color: aliceblue;
 }
+
+
+
+.search_container{
+    width:60%;
+    height:450px;
+    background-color: white;
+    position: absolute;
+    top:100px;
+    left:20%;
+    border-radius: 20px;
+}
