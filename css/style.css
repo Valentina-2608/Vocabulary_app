@@ -1480,3 +1480,44 @@ h2{
     left:40%;
     background-color: blanchedalmond;
 }
+
+.container11_block2_caption{
+    width:60%;
+    height:30px;
+    position: absolute;
+    top:50px;
+    left:0px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align:center;
+    font-size:34px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0d1b2a;
+}
+
+
+.container11_block2_button{
+    width:40%;
+    height:50px;
+    position: absolute;
+    top:50px;
+    left:60%;
+}
+
+#show_words{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #415A77;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    left:10%;
+}
+
+#show_words:hover{
+    cursor: pointer;
+}
