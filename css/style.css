@@ -1597,7 +1597,20 @@ h2{
     height:450px;
     background-color:white;
     position: absolute;
-    top:100px;
-    left:20%;
+    top:120px;
+    left:27%;
     border-radius: 20px;
+}
+
+.container12_image{
+    width:35%;
+    height:300px;
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+
+
+.container12_image>img{
+    width:100%;
 }
