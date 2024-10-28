@@ -1558,3 +1558,24 @@ h2{
     margin:0 auto;
     position:relative;
 }
+
+
+.main12_block1{
+    width:20%;
+    height:50px;
+    position: absolute;
+    top:60px;
+    left:70%;
+    font-size:22px;
+}
+
+.main12_block1>a{
+    font-style: italic;
+    color:#0d1b2a;
+}
+
+
+.main12_block1>a:hover{
+    cursor: pointer;
+    
+}
