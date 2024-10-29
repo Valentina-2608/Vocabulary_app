@@ -1677,3 +1677,18 @@ h2{
     height:120px;
     margin-top:10px;
 }
+
+#clear_btn{
+    padding:7px;
+    background-color: darkred;
+    font-size:16px;
+    margin-left:5%;
+    margin-top:5px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+#clear_btn:hover{
+    cursor: pointer;
+}
