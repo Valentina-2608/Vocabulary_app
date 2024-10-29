@@ -1655,7 +1655,6 @@ h2{
     position: absolute;
     top:150px;
     left:15%;
-    background-color: cyan;
     
 }
 
@@ -1664,7 +1663,6 @@ h2{
     width:100%;
     height:30px;
     margin-top:10px;
-    background-color: darkkhaki;
 }
 
 
@@ -1672,12 +1670,10 @@ h2{
     width:100%;
     height:30px;
     margin-top:10px;
-    background-color: darkkhaki; 
 }
 
 .word_description{
     width:100%;
     height:120px;
     margin-top:10px;
-    background-color: darkkhaki; 
 }
