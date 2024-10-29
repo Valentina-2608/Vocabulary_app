@@ -1616,11 +1616,11 @@ h2{
 }
 
 .search_box{
-    width:70%;
+    width:85%;
     height:60px;
     position: absolute;
     top:50px;
-    left:15%;
+    left:10%;
     
 }
 
@@ -1654,7 +1654,7 @@ h2{
     height:250px;
     position: absolute;
     top:150px;
-    left:15%;
+    left:10%;
     
 }
 
