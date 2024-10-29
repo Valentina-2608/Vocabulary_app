@@ -1614,3 +1614,36 @@ h2{
 .container12_image>img{
     width:100%;
 }
+
+.search_box{
+    width:70%;
+    height:60px;
+    position: absolute;
+    top:50px;
+    left:15%;
+    
+}
+
+#input_word{
+    height:30px;
+    padding:3px;
+    border:none;
+    border-bottom:2px solid #233048;
+    font-size:16px;
+
+}
+
+#search_btn{
+    padding:7px;
+    background-color: #415A77;
+    font-size:16px;
+    margin-left:5%;
+    margin-top:5px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+#search_btn:hover{
+    cursor: pointer;
+}
