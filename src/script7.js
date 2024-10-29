@@ -23,3 +23,11 @@ search_btn.addEventListener('click', ()=>{
         result.innerHTML=`<h3 class="error">Could not find this word. Please, try again</h3>`
     })
 });
+
+
+let clear_btn = document.getElementById('clear_btn');
+let input_word = document.getElementById('input_word');
+clear_btn.addEventListener('click', clearInput);
+function clearInput(){
+    input_word.value = '';
+}
