@@ -1625,6 +1625,7 @@ h2{
 }
 
 #input_word{
+    width:60%;
     height:30px;
     padding:3px;
     border:none;
