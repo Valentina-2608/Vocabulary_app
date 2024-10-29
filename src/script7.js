@@ -30,4 +30,9 @@ let input_word = document.getElementById('input_word');
 clear_btn.addEventListener('click', clearInput);
 function clearInput(){
     input_word.value = '';
+    result.innerHTML=`
+            <div class="word"></div>
+            <div class="word_transription"></div>
+            <div class="word_description"></div>
+        `;
 }
