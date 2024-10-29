@@ -1647,3 +1647,37 @@ h2{
 #search_btn:hover{
     cursor: pointer;
 }
+
+
+.search_result{
+    width:65%;
+    height:250px;
+    position: absolute;
+    top:150px;
+    left:15%;
+    background-color: cyan;
+    
+}
+
+
+.word{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    background-color: darkkhaki;
+}
+
+
+.word_transription{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    background-color: darkkhaki; 
+}
+
+.word_description{
+    width:100%;
+    height:120px;
+    margin-top:10px;
+    background-color: darkkhaki; 
+}
