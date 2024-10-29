@@ -1,0 +1,87 @@
+let words = [
+    {
+        "id":1,
+        "image":"img/attic.jpeg",
+        "caption":"Loft",
+        "text": "/lɒft/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/loft-uk.mp3",
+    },
+    {
+        "id":2,
+        "image":"img/backyard.jpg",
+        "caption":"Yard",
+        "text": "/jɑɹd/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/yard-us.mp3",
+    },
+    {
+        "id":3,
+        "image":"img/balcony.jpeg",
+        "caption":"Balcony",
+        "text": "/ˈbælkəni/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/balcony-us.mp3",
+    },
+    {
+        "id":4,
+        "image":"img/bathroom.jpg",
+        "caption":"Bathroom",
+        "text": "/ˈbæθ.ɹuːm/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/bathroom-uk.mp3",
+    },
+    {
+        "id":5,
+        "image":"img/bedroom.jpg",
+        "caption":"Bedroom",
+        "text": "/ˈbɛdɹʊm/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/bedroom-us.mp3",
+    },
+    {
+        "id":6,
+        "image":"img/dining_room.jpg",
+        "caption":"Dining room",
+        "text": "/ˈdaɪnɪŋ(ɡ)/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/dining-us.mp3",
+    },
+    {
+        "id":7,
+        "image":"img/garage.jpg",
+        "caption":"Garage",
+        "text": "/ɡəˈɹɑː(d)ʒ/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/garage-au.mp3",
+    },
+    {
+        "id":8,
+        "image":"img/garden.jpg",
+        "caption":"Garden",
+        "text": "/ˈɡɑːdn̩/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/garden-uk.mp3",
+    },
+    {
+        "id":9,
+        "image":"img/kitchen.jpeg",
+        "caption":"Kitchen",
+        "text": "/ˈkɪt͡ʃən/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/kitchen-uk.mp3",
+    },
+    {
+        "id":10,
+        "image":"img/laundry_room.jpg",
+        "caption":"Laundry room",
+        "text": "/ˈlɔːn.dɹi/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/laundry-us.mp3",
+    },
+    {
+        "id":11,
+        "image":"img/living_room.jpg",
+        "caption":"Living room",
+        "text": "/ˈlɪvɪŋ/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/living-uk.mp3",
+    },
+    {
+        "id":12,
+        "image":"img/study_room.jpg",
+        "caption":"Study room",
+        "text": "/ˈstʌdi/",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/study-uk.mp3",
+    }
+
+]

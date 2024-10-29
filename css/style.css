@@ -1,0 +1,1702 @@
+/* style.css */
+
+.main{
+    width:100%;
+    max-width:1200px;
+    height:1200px;
+    background-color:white;
+    margin:0 auto;
+    position:relative;
+}
+
+
+header{
+    width:100%;
+    height:100px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:5;
+}
+
+
+
+.header_image{
+    width:100%;
+    height:100px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: #233048;
+    z-index:3;
+}
+
+
+.header_image>img{
+    width:100%;
+}
+
+
+.logo{
+    width:10%;
+    height:100px;
+    position:absolute;
+    top:8px;
+    left:5%;
+}
+
+.logo>img{
+    width:100%;
+}
+
+
+.header_caption{
+    width:20%;
+    height:50px;
+    position:absolute;
+    top:30px;
+    left:15%;
+    font-size:30px;
+    color:darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header_text{
+    width:30%;
+    height:50px;
+    position:absolute;
+    top:30px;
+    left:40%;
+    font-size:22px;
+    color:#0D1B2A;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.block_buttons{
+    width:30%;
+    height:100px;
+    position:absolute;
+    top:30px;
+    left:70%;
+    font-size:32px;
+    text-align: center;
+}
+
+.block_buttons a{
+    text-decoration: none;
+    color:white;
+}
+.block_buttons a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+
+#btn_sign{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #415A77;
+    color:white;
+    font-weight: bold;
+}
+
+#btn_sign:hover{
+    cursor: pointer;
+}
+
+#btn_login{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #415A77;
+    color:white;
+    font-weight: bold;
+}
+
+#btn_login:hover{
+    cursor: pointer;
+}
+
+
+
+
+.block1{
+    width:100%;
+    height:300px;
+    position: absolute;
+    top:300px;
+    left:0px;
+}
+
+.block1_image{
+    width:35%;
+    height:300px;
+    position: absolute;
+    top:0px;
+    left:5%;
+}
+
+
+.block1_image>img{
+    width:75%;
+}
+
+
+.block1_text{
+    width:50%;
+    height:300px;
+    position: absolute;
+    top:0px;
+    left:45%;
+}
+
+
+.info{
+    width:50%;
+    height:20px;
+    padding:10px;
+    background-color: #edf5ff;
+    position: absolute;
+    left:1%;
+    top:20px;
+    border-radius: 10px;
+    font-size:20px;
+    color:blue;
+    text-align:center;
+    font-weight: bold;
+}
+
+
+
+.info1{
+    width:100%;
+    height:20px;
+    padding:5px;
+    position: absolute;
+    left:1%;
+    top:75px;
+    font-size:34px;
+    color:darkred;
+}
+
+
+
+.info1>a{
+    color:darkred;
+}
+
+.info2{
+    width:100%;
+    height:20px;
+    padding:5px;
+    position: absolute;
+    left:1%;
+    top:140px;
+    font-size:20px;
+}
+
+
+
+.block2{
+    width:100%;
+    height:300px;
+    position: absolute;
+    top:670px;
+    left:0px;
+}
+
+.block2_image{
+    width:35%;
+    height:300px;
+    position: absolute;
+    top:0px;
+    left:70%;
+}
+
+
+.block2_image>img{
+    width:75%;
+}
+
+
+
+.block2_text{
+    width:50%;
+    height:300px;
+    position: absolute;
+    top:0px;
+    left:5%;
+}
+
+
+
+footer{
+    width:95%;
+    height:60px;
+    position: absolute;
+    top:1100px;
+    left:0px;
+    background-color:#233048;
+    color:white;
+    font-size:18px;
+    padding-top: 40px;
+    padding-left:5%;
+}
+
+
+
+
+/* Login page */
+
+.main1{
+    width:100%;
+    max-width:1200px;
+    height:700px;
+    background-color:#7C95B6;
+    margin:0 auto;
+    position:relative;
+}
+
+.container1{
+    width:50%;
+    height:500px;
+    background-color: aliceblue;;
+    position:absolute;
+    top:100px;
+    left:25%;
+    border-radius: 10px;
+    border:5px solid #233048;
+}
+
+.container1_caption{
+    width:100%;
+    height:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#415A77;
+    text-align:center;
+    font-size:34px;
+    position:absolute;
+    top:20px;
+    left:0px;
+}
+
+
+.line1{
+    width:80%;
+    height:1px;
+    background-color:#C6BDB6;
+    position:absolute;
+    top:100px;
+    left:10%;
+}
+
+
+#form_login{
+    width:80%;
+    height:260px;
+    border-radius:20px;
+    position:absolute;
+    top:120px;
+    left:10%;
+}
+
+#form_login>label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+}
+
+#form_login>input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_login>input::placeholder{
+    color:gray;
+}
+
+
+input[type="email"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input[type="password"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+input:focus{
+    outline: none;
+    border:1px solid darkred;
+}
+
+
+
+.buttons{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:190px;
+    left:0px;
+}
+
+
+#btn_log_in{
+	width:20%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:20%;
+}
+
+#btn_log_in:hover{
+	cursor: pointer;
+}
+
+#btn_clear{
+	width:20%;
+	padding:1%;
+	background-color:#233048;
+    border:none;
+	font-weight: bold;
+    color:white;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:60%;
+}
+
+#btn_clear:hover{
+	cursor: pointer;
+}
+
+
+.container1_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:420px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:#415A77;
+}
+
+
+.container1_text>a{
+    color:#233048;
+}
+
+
+
+.container1_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:460px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container1_link>a{
+    color:#233048;
+}
+
+
+
+.main2{
+    width:100%;
+    max-width:1200px;
+    height:820px;
+    background-color:yellow;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.container2{
+    width:42%;
+    height:820px;
+    background-color:#7C95B6;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+
+.container2_caption{
+    width:100%;
+    height:30px;
+    position: absolute;
+    top:50px;
+    left:0px;
+    font-size:32px;
+    color:#233048;
+    text-align: center;
+}
+
+.list{
+    width:80%;
+    height:200px;
+    position: absolute;
+    top:120px;
+    left:10%;
+    list-style-type: none;
+
+}
+
+
+.list>li{
+    font-size:20px;
+    color:#233048;
+    margin-top:2px;
+    padding-bottom:20px;
+    padding-top:10px;
+    margin-bottom:10px;
+    color:white;
+}
+
+.list>li:before {
+    content: url('../img/list_image.png');
+    margin-right:10px;
+    margin-top:15px;
+}
+
+
+.container2_image{
+    width:100%;
+    height:300px;
+    position:absolute;
+    top:400px;
+    left:0px;
+}
+
+.container2_image>img{
+    width:50%;
+    position: absolute;
+    top:20px;
+    left:25%;
+}
+
+
+
+.container3{
+    width:58%;
+    height:820px;
+    background-color:aliceblue;
+    position:absolute;
+    top:0px;
+    left:42%;
+}
+
+
+.container3_caption{
+    width:100%;
+    height:30px;
+    position: absolute;
+    top:45px;
+    left:0px;
+    font-size:32px;
+    color:#415A77;
+    text-align: center;
+}
+
+
+#form_sign{
+    width:70%;
+    height:500px;
+    position:absolute;
+    top:120px;
+    left:14%;
+}
+
+
+#form_sign>label{
+    font-size:18px;
+    font-weight:bold;
+    color:#233048;
+}
+
+#form_sign input[type="text"]{
+	width:100%;
+	height: 22px;
+	border:1px solid #C6BDB6;
+    padding:10px;
+}
+
+#form_sign input::placeholder{
+    color:gray;
+}
+
+
+.buttons2{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    position:absolute;
+    top:510px;
+    left:0px;
+}
+
+
+#btn_sign_up{
+	width:35%;
+	padding:1%;
+    background-color:darkred;
+    color:white;
+	font-weight: bold;
+	border:none;
+	font-size:18px;
+    position:absolute;
+    top:0px;
+    left:20%;
+}
+
+#btn_sign_up:hover{
+	cursor: pointer;
+}
+
+
+
+.container3_text{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:710px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:#415A77;
+}
+
+
+.container3_text>a{
+    color:#233048;
+}
+
+
+
+.container3_link{
+    width:80%;
+    height:50px;
+    position:absolute;
+    top:750px;
+    left:10%;
+    font-size:18px;
+    text-align:center;
+    font-weight: bold;
+    color:darkred;
+}
+
+
+.container3_link>a{
+    color:#233048;
+}
+
+
+.error_message{
+    color:darkred;
+    margin-top:-5px;
+}
+
+#first_name_error{
+    display: none;
+}
+
+#last_name_error{
+    display: none;
+}
+
+#email_error{
+    display: none;
+}
+
+
+#password_error{
+    display: none;
+}
+
+
+
+/* app.html */
+
+
+.main4{
+    width:100%;
+    max-width:1200px;
+    height:1900px;
+    background-color:aliceblue;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.app_header{
+    width:100%;
+    height:140px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:5;
+    background-color: #7C95B6;
+}
+
+
+.header_caption1{
+    width:30%;
+    height:50px;
+    position:absolute;
+    top:50px;
+    left:34%;
+    font-size:34px;
+    color:darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header_text1{
+    width:25%;
+    height:50px;
+    position:absolute;
+    top:45px;
+    left:60%;
+    font-size:30px;
+    color:#0D1B2A;
+    text-align: center;
+}
+
+#btn_log_out{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#233048;
+    color:white;
+    font-weight: bold;
+    position:absolute;
+    top:20px;
+    left:53%;
+}
+
+#btn_log_out:hover{
+    cursor: pointer;
+}
+
+nav{
+    width:100%;
+    height:50px;
+    position:absolute;
+    top:140px;
+    left:0px;
+    background-color:#233048;
+}
+
+nav li{
+    display: inline-block;
+    width:20%;
+    margin-left:12%;
+}
+
+li>a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    font-size:18px;
+}
+
+.container4{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:170px;
+    left:0px;
+}
+
+.app_block{
+    width:40%;
+    height:470px;
+    margin-top:80px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-inline-start: 5%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:5px 5px 5px #233048;
+}
+
+h2{
+    color:#0D1B2A;
+    text-decoration: underline;
+}
+
+.app_block_image{
+    width:90%;
+    margin:5%;
+}
+
+.app_block_image>img{
+    width:70%;
+}
+
+
+.btn_show{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#233048;
+    font-weight: bold;
+}
+
+.btn_show:hover{
+    cursor: pointer;
+}
+
+.btn_show>a{
+    color:white;
+    text-decoration: none;
+}
+
+/* vocabulary_fruits.html */
+
+.main5{
+    width:100%;
+    max-width:1200px;
+    height:2150px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+.container5{
+    width:100%;
+    height:2020px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+.list_words{
+    width:100%;
+    height:2020px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+
+.word_block{
+    width:27%;
+    height:410px;
+    margin-top:80px;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:3px 3px 3px #233048;
+}
+
+
+.word_block>img{
+    width:80%;
+}
+
+.word_block_caption{
+    font-size:20px;
+    color:darkred;
+    font-weight: bold;
+}
+
+.word_block_text{
+    font-size:20px;
+    margin-top:10px;
+
+}
+
+.word_block_audio{
+    font-size:20px;
+    margin-top:20px;
+    width:80%;
+    margin-left:2%;
+
+}
+
+
+/* vocabulary_vegetables.html */
+
+.main6{
+    width:100%;
+    max-width:1200px;
+    height:2150px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+.container6{
+    width:100%;
+    height:2020px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+
+
+/* vocabulary_house.html */
+
+.main7{
+    width:100%;
+    max-width:1200px;
+    height:2150px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+.container7{
+    width:100%;
+    height:2020px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+
+.container7>.list_words>.word_block>img{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+
+
+
+/* vocabulary_city.html */
+
+.main8{
+    width:100%;
+    max-width:1200px;
+    height:2150px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+.container8{
+    width:100%;
+    height:2020px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+
+
+/* vocabulary_weather.html */
+
+.main9{
+    width:100%;
+    max-width:1200px;
+    height:2150px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.container9{
+    width:100%;
+    height:2020px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+/* vocabulary_nature.html */
+
+.main10{
+    width:100%;
+    max-width:1200px;
+    height:2300px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+.container10{
+    width:100%;
+    height:2120px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+.container10 .list_words{
+    width:100%;
+    height:2160px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+
+.container10>.list_words>.word_block>img{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.container10>.list_words>.word_block{
+    width:27%;
+    height:440px;
+    margin-top:80px;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:3px 3px 3px #233048;
+}
+
+
+
+/* vocabulary_games.html */
+
+.main11{
+    width:100%;
+    max-width:1200px;
+    height:1500px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+/* game1.html */
+
+
+.main1_game{
+    width:100%;
+    max-width:1200px;
+    height:1850px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+.container1_game{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+.block_game1_caption{
+    width:100%;
+    height:50px;
+    padding-top: 35px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+    text-align:center;
+    font-size:32px;
+    color:darkred;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.block_game1{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+
+.task_game1{
+    width:42%;
+    height:200px;
+    border-radius: 10px;;
+    border:2px solid #415A77;
+    margin-top:50px;
+    margin-left:5%;
+    float:left;
+}
+
+
+.word_game1{
+    width:80%;
+    height:80px;
+    margin-left:10%;
+    margin-top:70px;
+    float:left;
+}
+
+
+.word_game1>input[type="text"]{
+    width:30px;
+    height:30px;
+    font-size:32px;
+    text-align: center;
+    margin-left:3%;
+    border:none;
+    border-bottom:1px solid black;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+
+.word_game1>.active_input::placeholder{
+    color:aliceblue;
+}
+
+
+
+
+/* game2.html */
+
+.block_game2_caption{
+    width:100%;
+    height:50px;
+    padding-top: 35px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+    text-align:center;
+    font-size:32px;
+    color:darkred;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.block_game2{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+.task_game2{
+    width:42%;
+    height:200px;
+    border-radius: 10px;;
+    border:2px solid #415A77;
+    margin-top:50px;
+    margin-left:5%;
+    float:left;
+}
+
+
+.word_game2{
+    width:80%;
+    height:80px;
+    margin-left:10%;
+    margin-top:70px;
+    float:left;
+}
+
+
+.word_game2>input[type="text"]{
+    width:30px;
+    height:30px;
+    font-size:32px;
+    text-align: center;
+    margin-left:3%;
+    border:none;
+    border-bottom:1px solid black;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+
+.word_game2>.active_input::placeholder{
+    color:aliceblue;
+}
+
+
+
+
+
+
+/* game3.html */
+
+.block_game3_caption{
+    width:100%;
+    height:50px;
+    padding-top: 35px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+    text-align:center;
+    font-size:32px;
+    color:darkred;
+    font-style:italic;
+    font-weight: bold;
+}
+
+
+.block_game3{
+    width:100%;
+    height:1650px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+.task_game3{
+    width:42%;
+    height:200px;
+    border-radius: 10px;;
+    border:2px solid #415A77;
+    margin-top:50px;
+    margin-left:5%;
+    float:left;
+}
+
+
+.word_game3{
+    width:80%;
+    height:80px;
+    margin-left:10%;
+    margin-top:70px;
+    float:left;
+}
+
+
+.word_game3>input[type="text"]{
+    width:30px;
+    height:30px;
+    font-size:32px;
+    text-align: center;
+    margin-left:3%;
+    border:none;
+    border-bottom:1px solid black;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+
+.word_game3>.active_input::placeholder{
+    color:aliceblue;
+}
+
+
+/* games.html */
+
+
+.game_block{
+    width:40%;
+    height:470px;
+    margin-top:80px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-inline-start: 5%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    float:left;
+    box-shadow:5px 5px 5px #233048;
+}
+
+.game_block_image{
+    width:90%;
+    margin:5%;
+}
+
+.game_block_image>img{
+    width:90%;
+}
+
+
+
+
+
+
+/* game4.html */
+
+
+.main2_game{
+    width:100%;
+    max-width:1200px;
+    height:1000px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+
+
+.container2_game{
+    width:100%;
+    height:900px;
+    position: absolute;
+    top:190px;
+    left:0px;
+}
+
+
+.block_games_caption{
+    width:100%;
+    height:50px;
+    padding-top: 35px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color:aliceblue;
+    text-align:center;
+    font-size:32px;
+    color:darkred;
+    font-style:italic;
+    font-weight: bold;
+}
+
+
+.block_game4{
+    width:100%;
+    height:900px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+.draggable_elements{
+    width:100%;
+    height:410px;
+    top:30px;
+    left:0px;
+    position:absolute;
+}
+
+.droppable_elements{
+    width:100%;
+    height:400px;
+    top:440px;
+    left:00px;
+    position:absolute;
+}
+
+.block_elem{
+    width:12%;
+    height:160px;
+    margin-top:30px;
+    margin-left:6%;
+    border:1px solid darkblue;
+    float:left;
+    background-color: white;
+}
+
+
+
+.block_elem>img{
+    width:100%;
+}
+
+
+.droppable{
+    width:12%;
+    height:170px;
+    margin-top:30px;
+    margin-left:6%;
+    border:2px dotted black;
+    float:left;
+    background-color: #F8F8F8;
+    text-align:center;
+    font-style:italic;
+    font-size:18px;
+}
+
+
+.droppable_hover{
+    background-color: #233048;
+}
+
+
+.draggable {
+    cursor: move;
+  }
+  
+  
+  
+.draggable:hover {
+    opacity: 0.7;
+  }
+  
+.draggable.dragged {
+    cursor: default;
+  }
+  
+  
+.droppable.droppable-hover {
+    outline-width: 4px;
+    background-color: var(--gray-6);
+  }
+  
+.droppable.dropped {
+    outline: 2px solid var(--gray-8);
+    background-color:white;
+  
+  }
+  
+.droppable>img{
+      width:100%;
+      z-index:10;
+}
+
+
+.new_block{
+    border:none;
+}
+
+
+
+/* Game.html */
+
+
+.block_game5{
+    width:100%;
+    height:900px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+
+.block_game6{
+    width:100%;
+    height:900px;
+    position: absolute;
+    top:80px;
+    left:0px;
+    background-color:aliceblue;
+}
+
+
+/* my_words.html */
+
+.main11{
+    width:100%;
+    max-width:1200px;
+    height:1190px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.container11{
+    width:100%;
+    height:1000px;
+    position: absolute;
+    top:190px;
+    left:0px;
+    background-color: aliceblue;
+}
+
+
+.container11_block1{
+    width:40%;
+    height:1000px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.block_image{
+    width:80%;
+    height:500px;
+    position:absolute;
+    top:50px;
+    left:10%;
+}
+
+.block_image>img{
+    width:100%;
+}
+
+
+.container11_block2{
+    width:60%;
+    height:1000px;
+    position:absolute;
+    top:0px;
+    left:40%;
+}
+
+.container11_block2_caption{
+    width:60%;
+    height:30px;
+    position: absolute;
+    top:50px;
+    left:0px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align:center;
+    font-size:34px;
+    font-style: italic;
+    font-weight: bold;
+    color: #0d1b2a;
+}
+
+
+.container11_block2_button{
+    width:40%;
+    height:50px;
+    position: absolute;
+    top:50px;
+    left:60%;
+}
+
+#show_words{
+    padding:10px;
+    margin-right: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: #415A77;
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    top:10px;
+    left:10%;
+}
+
+#show_words:hover{
+    cursor: pointer;
+}
+
+
+.my_list_words{
+    width:60%;
+    height:700px;
+    background-color:#233048;
+    position: absolute;
+    top:150px;
+    left:20%;
+    border-radius:10px;
+    color:white;
+}
+
+
+.new_word{
+    width:100%;
+    height:30px;
+    font-size:24px;
+    margin-top:10px;
+}
+
+
+.new_word_caption{
+    width:80%;
+    margin-left:10%;
+}
+
+
+/* dictionary.html */
+
+.main12{
+    width:100%;
+    max-width:1200px;
+    height:900px;
+    background-color:red;
+    margin:0 auto;
+    position:relative;
+}
+
+
+.main12_block1{
+    width:20%;
+    height:50px;
+    position: absolute;
+    top:60px;
+    left:70%;
+    font-size:22px;
+}
+
+.main12_block1>a{
+    font-style: italic;
+    color:#0d1b2a;
+}
+
+
+.main12_block1>a:hover{
+    cursor: pointer;
+    
+}
+
+
+.container12{
+    width:100%;
+    height:760px;
+    position: absolute;
+    top:140px;
+    left:0px;
+    background-color:#233048;
+}
+
+
+
+.search_container{
+    width:55%;
+    height:450px;
+    background-color:white;
+    position: absolute;
+    top:120px;
+    left:27%;
+    border-radius: 20px;
+}
+
+.container12_image{
+    width:35%;
+    height:300px;
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+
+
+.container12_image>img{
+    width:100%;
+}
+
+.search_box{
+    width:85%;
+    height:60px;
+    position: absolute;
+    top:50px;
+    left:10%;
+    
+}
+
+#input_word{
+    width:60%;
+    height:30px;
+    padding:3px;
+    border:none;
+    border-bottom:2px solid #233048;
+    font-size:16px;
+
+}
+
+#search_btn{
+    padding:7px;
+    background-color: #415A77;
+    font-size:16px;
+    margin-left:5%;
+    margin-top:5px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+#search_btn:hover{
+    cursor: pointer;
+}
+
+
+.search_result{
+    width:65%;
+    height:250px;
+    position: absolute;
+    top:150px;
+    left:10%;
+    font-size:20px;
+    
+}
+
+
+.word{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    font-weight: bold;
+}
+
+
+.word_transription{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+}
+
+.word_description{
+    width:100%;
+    height:120px;
+    margin-top:10px;
+}
+
+#clear_btn{
+    padding:7px;
+    background-color: darkred;
+    font-size:16px;
+    margin-left:5%;
+    margin-top:5px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+#clear_btn:hover{
+    cursor: pointer;
+}

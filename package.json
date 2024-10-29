@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1665.0",
+    "aws-sdk": "^2.1669.0",
     "firebase": "^10.12.4",
     "livereload": "^0.9.3",
     "livereload-js": "^4.0.2"
